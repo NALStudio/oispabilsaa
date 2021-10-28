@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html manifest="yhdet.appcache">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Oispa KaLussa!</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="title" content="Oispa KaLussa!">
+<meta name="description" content="Saatko kirjoitettua laudaturin? KaLu-teemainen oispakaljaa-klooni.">
+<meta name="keywords" content="kalu, kalevanlukio, kalevan, lukio, peli, koulu, opiskelu, koulukirjat">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta property="og:title" content="Oispa KaLussa!" />
+  <meta property="og:url" content="https://www.oispakalussa.tk" />
+  <meta property="og:description" content="Saatko kirjoitettua laudaturin? KaLu-teemainen oispakaljaa-klooni." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.oispakalussa.tk/img/og_katko.png" /> <!-- TODO: Create texture -->
+  <meta property="og:image:type" content="image/png" />
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">Oispa KaLussa!</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <div class="doge-says">
+        <p></p>
+      </div>
+      <div class="katkoviesti">
+        <p></p>
+      </div>
+      <div class="info">
+        <!-- <div class="hide-info"><a>HIDE</a></div> -->
+        <br />
+       <p>Fuusioi samanlaiset esineet keskenään käyttämällä nuolinäppäimiä tai pyyhkäisyä. Fuusioidut esineet järjestäytyvät yhdessä arvokkaammaksi esineeksi. Jokaisen liikutuksen jälkeen syntyy satunnaiseen paikkaan uusi ThinkPad-läppäri tai Unioni-oppikirja. Reppusi ei saa täyttyä niin, ettet pysty enää liikuttamaan kamojasi. Tiukassa tilanteessa voit mennä TVT-tunnille, mutta vain jos mielenterveytesi on tarpeeksi korkea! TVT-tunnista selviää vain mielenterveyden ollessa yli 1000. TVT-tunnilla mielenterveytesi tippuu tuhannella sekä joudut luovuttamaan varastamasi läppärit, ja maksamaan niistä korvauksia muilla kamoillasi!</p>
+       <p>Oispa KaLussa! by <a href="https://github.com/KL-Corporation" target="_blank">KL Corporation</a><br />
+        <a href="https://github.com/KL-Corporation" target="_blank"><img src="https://www.oispakalussa.tk/img/kl_logo.svg" height="256px" /></a><br />
+       <small>Koodi <strike>kopioitu</strike> lainattu <a href="http://oispakaljaa.com/" target="_blank">Antti R:n Yhdet vielä! -pelistä</a>.<br /></small></p>
+<p>Kuvat: Googlen kuvahaku. </p>
+
+<p>Äänet: <a href="http://www.freesound.org" target="_blank">http://www.freesound.org</a><br />
+<pre>
+sarahbuzzerb.mp3 by nofeedbak
+<!--
+Wine bottle opening - Cahors -
+Le Grand Coyrou Reserve - 2002.wav by Greg Baumont
+<br />Whisky Bottle (opening) by ultradust
+<br />Bottle Open Pour Fizz by AshFox
+<br />BeerCanOpening.aif by gleepglop
+<br />Beer bottles.wav by Akeroyc
+<br />Ambulance by saphe
+-->
+</pre>
+</p>
+
+      </div>
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Jatka peliä</a>
+          <a class="retry-button">Yritä uudestaan</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+      <div class="lower-container">
+    <div class="buttons-container">
+        <div class="katko-container katko-container-color">
+      <a TITLE="Mene TVT-tunnille. Menetät mielenterveyttä ja kamasi!" class="go-katko">TVT-TUNTI</a>
+    </div>
+        <div class="info-container">
+      <a TITLE="Tietoja pelistä" class="show-info">OHJEET</a>
+    </div>
+    </div>
+          <p class="game-explanation">
+       Fuusioi samanlaiset esineet keskenään, ja nosta mielenterveyttäsi!<br />
+       Saatko kirjoitettua laudaturin?!<br /><br />
+
+       <b>Sivun katselumäärä:</b> <img src="https://hitwebcounter.com/counter/counter.php?page=7882160&style=0006&nbdigits=5&type=page&initCount=0" class="site-visitors" /></a>
+      </p>
+      </div>
+      <div style="text-align: center; margin-top: 15px;">
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_score_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
