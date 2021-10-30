@@ -14,19 +14,12 @@ function HTMLActuator() {
 }
 
 dogeSayings = [
-  'TI-Nspire™ CX CAS Student Software',
-  'SpeedCrunch!!',
-  'Abitti D:',
   'Korsuvaluuttaa!!',
-  'Ruokailu!',
-  'Köksää!',
-  'Matikkaa!',
-  'Kymppi tulee!',
   'Kurssista läpi!',
-  'Fysiikan tunnille!',
   'Keskiarvo nousee!',
   'Helppoo ku mikä!',
-  'Isänmaan tulevaisuus!'
+  'Isänmaan tulevaisuus!',
+  'Nostan ykköskenttään!'
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
@@ -204,7 +197,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "Laudatur!" : "Mene Amikseen!";
+  var message = won ? "Korsu!"   : "Game over!";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
@@ -249,7 +242,7 @@ HTMLActuator.prototype.goKatko = function () {
 
     //var message = "KATKOLLE!";
     var messageElement = document.createElement("img");
-    messageElement.setAttribute('src',"https://www.oispakalussa.tk/img/katko.png");
+    messageElement.setAttribute('src',"https://www.oispabilsaa.tk/img/katko.png");
     //messageElement.textContent = message;
     //var left = 'left: 37%;';
     //var top = 'top: 10%;';
