@@ -143,18 +143,21 @@ HTMLActuator.prototype.updateScore = function (score) {
 
   if (difference > 0) {
 
-                var a =  Math.floor((Math.random() * 4) + 1);
+                var a =  Math.floor((Math.random() * 5) + 1);
             if (a == 1) {
-                snd = new Audio("/open1.mp3");
+                snd = new Audio("https://oispabilsaa.tk/snd/open1.ogg");
             }
             if (a == 2) {
-                snd = new Audio("/open2.mp3");
+                snd = new Audio("https://oispabilsaa.tk/snd/open2.ogg");
             }
             if (a == 3) {
-                snd = new Audio("/open3.mp3");
+                snd = new Audio("https://oispabilsaa.tk/snd/open3.ogg");
             }
             if (a == 4) {
-                snd = new Audio("/open4.mp3");
+                snd = new Audio("https://oispabilsaa.tk/snd/open4.ogg");
+            }
+            if (a == 5) {
+                snd = new Audio("https://oispabilsaa.tk/snd/open5.ogg");
             }
 
     var addition = document.createElement("div");
@@ -178,19 +181,19 @@ HTMLActuator.prototype.updateScore = function (score) {
       {
             var a =  Math.floor((Math.random() * 3) + 1);
             if (a == 1) {
-                snd = new Audio("/none1.mp3");
+                snd = new Audio("https://oispabilsaa.tk/snd/none1.ogg");
             }
             if (a == 2) {
-                snd = new Audio("/none2.mp3");
+                snd = new Audio("https://oispabilsaa.tk/snd/none2.ogg");
             }
             if (a == 3) {
-                snd = new Audio("/none3.mp3");
+                snd = new Audio("https://oispabilsaa.tk/snd/none3.ogg");
             }
 
 
       }
 
-  // snd.play(); TODO: Add these sounds back -NAL
+  snd.play();
 };
 
 HTMLActuator.prototype.updateBestScore = function (bestScore) {
@@ -227,10 +230,8 @@ HTMLActuator.prototype.hideInfo = function () {
 
 HTMLActuator.prototype.goKatko = function () {
 
-    /* TODO: Add these sounds back -NAL
-    snd = new Audio("/audio/katkolle.mp3");
+    snd = new Audio("https://oispabilsaa.tk/snd/katkolle.ogg");
     snd.play();
-    */
 
     this.clearContainer(this.scoreContainer);
     this.clearContainer(this.katkoViesti);
