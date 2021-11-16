@@ -22,7 +22,8 @@ dogeSayings = [
   'Nostan ykköskenttään!',
   'Annan ison käden!',
   'Mää tarjoon tän ilmaseks!',
-  '20 plussaa nii ei tarvii tulla kokeeseen!'
+  '20 plussaa nii ei tarvii tulla kokeeseen!',
+  'Lisään avauskokoonpanoon!'
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
