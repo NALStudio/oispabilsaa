@@ -24,7 +24,8 @@ dogeSayings = [
   'Mää tarjoon tän ilmaseks!',
   'Lisään avauskokoonpanoon!',
   'Ei tarvi tulla kokeeseen kuha on plussaa!',
-  '+1 Korsu Credit Score'
+  '+1 Korsu Credit Score',
+  'Plussat voi vaihtaa lähimmässä Forex valuutanvaihdossa!'
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
