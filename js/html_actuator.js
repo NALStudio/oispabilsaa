@@ -22,6 +22,7 @@ dogeSayings = [
   'Nostan ykköskenttään!',
   'Annan ison käden!',
   'Mää tarjoon tän ilmaseks!',
+  'Lisään avauskokoonpanoon!',
   'Ei tarvi tulla kokeeseen kuha on plussaa!',
   '+1 Korsu Credit Score'
 ]
