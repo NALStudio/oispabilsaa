@@ -13,7 +13,7 @@ function HTMLActuator() {
 
 }
 
-dogeSayings = [
+korsuSayings = [
   'Korsuvaluuttaa!!',
   'Kurssista läpi!',
   'Keskiarvo nousee!',
@@ -25,7 +25,10 @@ dogeSayings = [
   'Lisään avauskokoonpanoon!',
   'Ei tarvi tulla kokeeseen kuha on plussaa!',
   '+1 Korsu Credit Score',
-  'Plussat voi vaihtaa lähimmässä Forex valuutanvaihdossa!'
+  'Plussat voi vaihtaa lähimmässä Forex valuutanvaihdossa!',
+  'Vedätkö tämän viemäristä alas?!',
+  'Minä heitän tämän roskiin!',
+  'Sä saat tästä plussan!'
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
@@ -169,7 +172,7 @@ HTMLActuator.prototype.updateScore = function (score) {
     addition.textContent = "+" + difference;
     this.scoreContainer.appendChild(addition);
 
-    var message = dogeSayings[Math.floor(Math.random() * dogeSayings.length)];
+    var message = korsuSayings[Math.floor(Math.random() * korsuSayings.length)];
     var messageElement = document.createElement("p");
     messageElement.textContent = message
     var left = 'left:' + Math.round(Math.random() * 20 + 30) + '%;'
