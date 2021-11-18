@@ -28,7 +28,9 @@ korsuSayings = [
   'Plussat voi vaihtaa lähimmässä Forex valuutanvaihdossa!',
   'Vedätkö tämän viemäristä alas?!',
   'Minä heitän tämän roskiin!',
-  'Sä saat tästä plussan!'
+  'Sä saat tästä plussan!',
+  'Mä en ryhdy tämmöseen',
+  'Nyt mä en ymmärrä mitään...'
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
